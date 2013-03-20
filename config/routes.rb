@@ -1,5 +1,5 @@
 Personal::Application.routes.draw do
-  get "content/index"
+  root :to => "content/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
